@@ -69,8 +69,8 @@
     "image": "portfolio1",
     "category": "basicweb",
     "links": {
-      "view": "#",
-      "code": "https://github.com/jigar-sable/Portfolio-Website"
+      "view": "https://portfolio-yash-laxwanis-projects.vercel.app/",
+      "code": "https://github.com/Yashlaxwani/Portfolio"
     }
   }
 ]
