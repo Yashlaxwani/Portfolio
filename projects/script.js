@@ -1,3 +1,81 @@
+const projectsData = [
+    {
+      "name": "CryptoVerse",
+      "desc": "A Crypto Verse app presents Cryptocurrencies Stats which can be utilize to see trends of Crypto using Redux Toolkit, API Hub.",
+      "image": "Crypto",
+      "links": {
+        "view": "https://projectcryptoverseapp.netlify.app/",
+        "code": "https://github.com/Yashlaxwani/Crypto"
+      }
+    },
+    {
+      "name": "Laxwani Restaurant",
+      "desc": "MERN Restaurant website.",
+      "image": "Restaurant",
+      "links": {
+        "view": "https://restaurant-frontend-steel.vercel.app/",
+        "code": "https://github.com/Yashlaxwani/Restaurant_backend"
+      }
+    },
+    {
+      "name": "Smart Object Analysis",
+      "desc": "Can be use in many Industries and factories for object counting, detection, measurement and to find any defects in object.",
+      "image": "resumegen",
+      "links": {
+        "view": "https://github.com/Yashlaxwani/Smart-Object-Analysis",
+        "code": "https://github.com/Yashlaxwani/Smart-Object-Analysis"
+      }
+    },
+    {
+      "name": "Drug Recommendation System",
+      "desc": "Drug Recommendation System aimed at providing personalized medication based on Preprocessed and cleaned patient data.",
+      "image": "reactprojects",
+      "links": {
+        "view": "https://github.com/Yashlaxwani/DrugRecommendationSystem",
+        "code": "https://github.com/Yashlaxwani/DrugRecommendationSystem"
+      }
+    },
+  
+    {
+      "name": "Volume Control System",
+      "desc": "Enabled Users to control audio volume through hand gestures, enhancing user interaction and accessibility using Python.",
+      "image": "jspro",
+      "links": {
+        "view": "https://github.com/Yashlaxwani/Volume-Control",
+        "code": "https://github.com/Yashlaxwani/Volume-Control"
+      }
+    },
+    {
+      "name": "Airbnb-Clone",
+      "desc": "Airbnb-Clone web UI clone.",
+      "image": "webuiclones",
+      "links": {
+        "view": "https://yashlaxwani.github.io/Airbnb-Clone/",
+        "code": "https://github.com/Yashlaxwani/Airbnb-Clone"
+      }
+    },
+    {
+      "name": "Online Cafeteria Service",
+      "desc": "Simple landing page website built using HTML, CSS, JavaScript and some JavaScript Libraries.",
+      "image": "composey",
+      "links": {
+        "view": "https://yashlaxwani.github.io/PDEU_Cafeteria/",
+        "code": "https://github.com/Yashlaxwani/PDEU_Cafeteria"
+      }
+    },
+    {
+      "name": "Portfolio Website",
+      "desc": "Personal Portfolio Website. Don't Need Much Info About It, Just Scroll Down. You're Here Only!",
+      "image": "portfolio1",
+      "category": "basicweb",
+      "links": {
+        "view": "https://portfolio-yash-laxwanis-projects.vercel.app/",
+        "code": "https://github.com/Yashlaxwani/Portfolio"
+      }
+    }
+  ];
+  
+
 $(document).ready(function () {
 
     $('#menu').click(function () {
@@ -100,9 +178,11 @@ function showProjects(projects) {
     });
 }
 
-getProjects().then(data => {
-    showProjects(data);
-})
+showProjects(projectsData);
+
+// getProjects().then(data => {
+//     showProjects(data);
+// })
 // fetch projects end
 
 // Start of Tawk.to Live Chat
